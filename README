@@ -1,0 +1,10 @@
+For this script to work you need to add into your .bashrc
+ export OAUTH_CONSUMER_KEY='your_key'
+ export OAUTH_CONSUMER_SECRET='your_secret'
+
+Then run:
+ php oauth_flow.php
+
+Its also possible to run in sandbox mode (don't forget to change env vars to sandbox keys):
+ php oauth_flow.php sandbox
+ 
